@@ -16,9 +16,9 @@
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
 
-'''
+```
 beforeAll(async () => {
     await page.click('header > img')
   });
-'''
+```
 
